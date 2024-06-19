@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "MontSerrat", sans-serif !important;
+}
+
+img {
+    display: block;
+}
+
+header {
+    position: relative; 
+    z-index: 1100; 
+}
+
+
+nav.menulateral{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 130px 0 0px !important ;
+    box-shadow: 3px 0 0 #00CC73;
+    overflow: hidden;
+}
+nav.menulateral:hover{
+    width: 290px;
+    transition: 0.4s;
+    height: 100%;
+}
+.btn-expandir{
+    width: 100%;
+    padding: 10px;
+}
+.btn-expandir > i{
+    color: #00CC73;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 27px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: 0.2s;
+}
+ul li.item-menu:hover{
+    background-color: #00CC73;
+}
+ul li.item-menu a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 60px;
+}
+ul li.item-menu a .icon > i{
+    font-size: 30px; 
+    display: flex;
+    margin-left: 22px;
+}
+
+main,section,footer{
+    padding-left: 100px;
+}
+
+main {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+
+
+}
+
+.container-main {
+    max-width: 1280px;
+    margin: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.container-main p {
+    margin-top: 1.5rem;
+    text-align: left;
+    
+}
+
+.container-main img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.secao-2 {
+    background-color: #00CC73;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100% !important;
+}
+
+
+.container-agenda {
+    max-width: 1280px;
+    width: 100%;
+    margin: 2.5rem;
+    margin-left: 3.5rem;
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    align-items: start;
+}
+
+.header-secao2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.header-secao2 h2 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header-secao2 p {
+    font-size: 1.5rem;
+    max-width: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+.img-list img {
+    max-width: 543px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.img-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.agenda-list ul {
+    margin-left: 5px;
+    padding: 0;
+    list-style: square;
+}
+
+.agenda-list ul li {
+    padding: 5rem;
+    color: #ffffff;
+
+}
+
+.agenda-list ul li:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.agenda-list {
+    font-size: 1.5rem;
+}
+
+.agenda-list {
+    text-align: start;
+    align-content: center;
+}
+
+.secao-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header-secao3 {
+    width: 100%;
+    margin-left: 3.5rem;
+    margin-top: 6rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao-3 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.secao-3  h3{
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.secao3-container {
+    flex-direction: column;
+    margin-left: 3.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.card {
+    background-color: #00CC73 !important;
+    width: 24rem;
+    color: #ffffff !important;
+    border-radius: 0;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    gap: 5rem;
+}
+
+.feed-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feed-button button {
+    background-color: #00CC73;
+    border: 0;
+    color: #ffffff;
+    padding: 5px;
+
+}
+
+.feed-button button:hover {
+    color: #00CC73;
+    background-color: black;
+}
+
+.text-secao3 {
+    max-width: 24rem;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    margin-left: 50px ;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .img-list {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .agenda-list ul li {
+        padding: 1rem;
+    }
+
+    .agenda-list ul li:nth-child(2) {
+        margin-left: 0;
+    }
+
+
+    .secao3-container {
+        display: flex ;
+        margin-left: 0 !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-1, .card-2 {
+        gap: 10px;
+    }
+
+    .card-2 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 18rem;
+    }
+
+    .header-secao2 h2 {
+        color: #ffffff;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .header-secao2 p {
+        font-size: 1.2rem;
+        max-width: 500px;
+        text-align: center;
+        width: 100%;
+    }
+  
+    nav.menulateral {
+        width: 80px; /* Reduza a largura da sidebar */
+    }
+
+    nav.menulateral:hover {
+        width: 200px; /* Largura expandida ao passar o mouse */
+    }
+
+    .btn-expandir > i {
+        margin-left: 5px; /* Ajuste o ícone de expansão para alinhar */
+    }
+}
+
+    @media screen and (max-width: 768px) {
+        nav.menulateral {
+            display: none;
+        }
+
+        main,section,footer{
+            padding: 0;
+        }
+
+        .agenda-list {
+            font-size: 0.9rem;
+        }
+
+        footer {
+            margin: 0;
+        }
+    }
+
+

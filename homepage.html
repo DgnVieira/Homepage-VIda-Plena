@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Homepage-Vida Plena</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/homepage.css">
+    <!--INICIO - Script do JQuery e Função para inserir o cabeçalho-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#tagCabecalho").load("cabecalho.html");
+            $("#tagMenuLateral").load("menulateral.html");
+            $("#tagFooter").load("footer.html");
+        });
+    </script>
+    <!--FIM-->
+</head>
+
+<body>
+    <header>
+        <div id="tagCabecalho"></div>
+    </header>
+    <div id="tagMenuLateral"></div>
+    <main>
+        <div class="container-main">
+            <h1>Olá! Seja bem vindo à plataforma <b>Vida Plena</b>!</h1>
+            <p>O seu espaço online para marcar e participar de encontros sociais emocionantes e significativos.
+                Criamos esta plataforma espeicialmente pensando em proporcionar oportunidades de conexão e diversão
+                para a comunidade sênior.
+                Aqui está uma amostra do que oferecemos.
+            </p>
+            <img src="assets/img/Active elderly people-bro.png">
+        </div>
+    </main>
+
+    <section class="secao-2">
+        <div class="container-agenda">
+            <div class="header-secao2">
+                <h2>Agenda de eventos</h2>
+                <p>O seu guia online para participar dos mais interessantes eventos locais</p>
+            </div>
+            <div class="img-list"><img src="assets/img/section2-calendar.png">
+                <div class="agenda-list">
+                    <ul>
+                        <li>Se mantenha organizado</li>
+                        <li>Registre-se em eventos</li>
+                        <li>Crie eventos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secao-3">
+
+        <div class="secao3-container">
+            <div class="header-secao3">
+                <h2>Confira as melhores dicas e notícias</h2>
+            </div>
+            <div class="card-container card-1">
+                <div class="card">
+                    <img src="assets/img/Creative thinking-bro.png" class="card-img-top" alt="...">
+                    <div id="first-card" class="card-body">
+                    </div>
+                </div>
+                <div class="feed-button">
+                    <h3>Acessar Feed</h3>
+                    <button id="feed-btn" type="button">Ver Mais</button>
+                </div>
+            </div>
+            <div class="card-container card-2">
+                <div class="text-secao3">
+                    <h3>Feitas especialmente para você!</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/img/Creative thinking-bro.png" class="card-img-top" alt="...">
+                    <div id="second-card" class="card-body">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div id="tagFooter"></div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/homepage.js"></script>
+
+
+</body>
+
+</html>
